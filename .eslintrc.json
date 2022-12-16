@@ -1,0 +1,15 @@
+// Define standard rules for TypeScript by JavaScript Standard Style
+{
+  "extends": "standard-with-typescript",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/no-declare": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/prefer-nullish-coalescing": "off",
+    // "@typescript-eslint/return-await": "off",
+    "@typescript-eslint/semi": [2, "always"],
+    "@typescript-eslint/quotes": ["error"]
+  }
+}
